@@ -5,9 +5,9 @@ void main() {
   group('for_loop01', (() {
     test('the sum of the numbers', () {
       expect(func([5, 6, 7, 8], 0, 3), 6);
-    }, timeout: Timeout.factor(2)););
+    }, timeout: Timeout.factor(2));
     test('the sum of the numbers', () {
       expect(func([1, 8, 2, 5, 3, 7, 4], 3, 7), 4);
-    }, timeout: Timeout.factor(2)););
+    }, timeout: Timeout.factor(2));
   }));
 }
