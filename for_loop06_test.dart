@@ -7,7 +7,7 @@ void main() {
       expect(func([6, 2, 8, 1, 6, 3, 7], 2, 4), 9);
     });
     test('the sum of the numbers', () {
-      expect(func([1, 2, 3, 4, 5], 0, 3), 3);
+      expect(func([1, 2, 3, 4, 5], 0, 3), 6);
     });
   }));
 }
